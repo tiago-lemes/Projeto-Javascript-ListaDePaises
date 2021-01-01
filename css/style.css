@@ -1,0 +1,39 @@
+body {
+  font-family: 'Fira Code Light', 'Consolas';
+  padding: 10px;
+}
+
+#divContainer {
+  background-color: rgb(180, 212, 223);
+  display: flex;
+}
+
+#divCountries {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: rgb(45, 131, 160);
+  margin: 50px;
+}
+
+#divFavoritesCountries {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: rgb(230, 218, 168);
+  margin: 50px;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-flag {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
